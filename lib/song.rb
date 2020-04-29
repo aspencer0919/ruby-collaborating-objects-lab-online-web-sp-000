@@ -10,7 +10,9 @@ class Song
   end
 
   def artist(artist)
-
+    if @artist
+      @artist.name
+    end
   end
 
   def self.all
