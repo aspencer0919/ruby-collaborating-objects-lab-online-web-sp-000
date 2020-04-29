@@ -9,7 +9,7 @@ class Song
     @@song << self
   end
 
-  def artist(artist)
+  def artist
     if @artist
       @artist.name
     end
