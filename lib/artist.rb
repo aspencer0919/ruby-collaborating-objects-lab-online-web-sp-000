@@ -8,7 +8,19 @@ class Artist
     @@all << name
   end
 
-#  def all
-#    @@all
-#  end
+  def self.all
+    @@all
+  end
+
+  def add_song
+
+  end
+
+  def songs
+
+  end
+
+  def print_songs
+
+  end
 end
