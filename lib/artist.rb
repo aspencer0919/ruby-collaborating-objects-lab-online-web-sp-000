@@ -8,7 +8,7 @@ class Artist
     @@all << name
   end
 
-  def all
-    @@all
-  end
+#  def all
+#    @@all
+#  end
 end
