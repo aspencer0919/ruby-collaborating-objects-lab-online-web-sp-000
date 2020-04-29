@@ -7,4 +7,8 @@ class Artist
     @name = name
     @@all << name
   end
+
+  def all
+    @@all
+  end
 end
